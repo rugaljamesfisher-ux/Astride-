@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>Mon Astre</title>
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+</head>
+
+<body>
+
+    <main id="universe">
+
+        <!-- =========================
+             Starfield
+             ========================= -->
+
+        <canvas id="starfield"></canvas>
+
+
+        <!-- =========================
+             Scene 01 — The Void
+             ========================= -->
+
+        <section
+            id="scene-void"
+            class="scene active"
+        >
+
+            <div id="asteroid"></div>
+
+            <div id="title-container">
+
+                <h1>MON ASTRE</h1>
+
+                <p>
+                    August 15, 2026
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =========================
+             Scene 02 — Sound Gate
+             ========================= -->
+
+        <section
+            id="scene-sound"
+            class="scene"
+        >
+
+            <div class="sound-content">
+
+                <p class="scene-label">
+                    Before we begin
+                </p>
+
+                <h2>
+                    Would you like<br>
+                    to hear the sound?
+                </h2>
+
+                <div class="sound-options">
+
+                    <button
+                        id="sound-yes"
+                        class="sound-button"
+                    >
+                        <span class="sound-icon">◉</span>
+                        <span>Yes</span>
+                    </button>
+
+
+                    <button
+                        id="sound-no"
+                        class="sound-button"
+                    >
+                        <span class="sound-icon">○</span>
+                        <span>No</span>
+                    </button>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+            <!-- =========================
+         Scene 03 — The Beginning
+         ========================= -->
+    
+    <section
+        id="scene-beginning"
+        class="scene"
+    >
+    
+        <canvas id="orbit-canvas"></canvas>
+    
+        <div id="beginning-text">
+    
+            <p class="scene-label">
+                The beginning
+            </p>
+    
+            <h2>
+                Once, two paths crossed.
+            </h2>
+    
+        </div>
+    
+    </section>
+
+    </main>
+
+
+    <script src="js/script.js"></script>
+    <script src="js/scene03.js"></script>
+
+</body>
+
+</html>
